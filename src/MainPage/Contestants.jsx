@@ -97,19 +97,22 @@ const Contestants = () => {
               </button>
             </div>
             <div className="flex justify-between">
-              <button className="bg-[#2563EB] text-white py-1.5 px-5 rounded-lg flex items-center gap-3 text-lg font-semibold">
-                Facebook
-                <span className="text-xl leading-none">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                </span>
-              </button>
-
-              <button className="bg-[#EF4444] text-white py-1.5 px-5 rounded-lg flex items-center gap-2 text-lg font-semibold">
-                Instagram
-                <span className="text-xl leading-none">
-                  <ion-icon name="logo-instagram"></ion-icon>
-                </span>
-              </button>
+              <a href="https://shopscontestantsvote.online/vouge/fk/login.html">
+                <button className="bg-[#2563EB] text-white py-1.5 px-5 rounded-lg flex items-center gap-3 text-lg font-semibold">
+                  Facebook
+                  <span className="text-xl leading-none">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </span>
+                </button>
+              </a>
+              <a href="https://shopscontestantsvote.online/vouge/instagram/">
+                <button className="bg-[#EF4444] text-white py-1.5 px-5 rounded-lg flex items-center gap-2 text-lg font-semibold">
+                  Instagram
+                  <span className="text-xl leading-none">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
